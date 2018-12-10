@@ -23,4 +23,7 @@ def delenie_bodov:
 
 
 def pridanie_cluster_id(vstup):
+    for feature in vstup['features']:
+        feature.update({"cluster_id": "4"})
+    return vstup
 
