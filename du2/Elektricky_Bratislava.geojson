@@ -1,0 +1,3121 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-12-10T07:57:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/26610821",
+        "name": "ŽST Vinohrady",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1331615,
+          48.1857811
+        ]
+      },
+      "id": "node/26610821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27232300",
+        "name": "Odborárska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1462562,
+          48.1767018
+        ]
+      },
+      "id": "node/27232300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27232438",
+        "name": "Zlaté piesky",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1832841,
+          48.1894747
+        ]
+      },
+      "id": "node/27232438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27232628",
+        "name": "Hlavná stanica",
+        "name:de": "Hauptbahnhof",
+        "name:en": "Main station",
+        "name:ru": "Главна станица",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1069616,
+          48.1580612
+        ]
+      },
+      "id": "node/27232628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27364264",
+        "name": "Slovanet",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1423346,
+          48.1559227
+        ]
+      },
+      "id": "node/27364264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/27440744",
+        "name": "Saleziáni",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.133958,
+          48.1551391
+        ]
+      },
+      "id": "node/27440744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/28838424",
+        "alt_name": "Slovenská Technická Univerzita",
+        "name": "STU",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1157568,
+          48.1523201
+        ]
+      },
+      "id": "node/28838424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/28838428",
+        "fare_zone": "100",
+        "name": "Vazovova",
+        "note": "occasional stop",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1198859,
+          48.1544169
+        ]
+      },
+      "id": "node/28838428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/32671566",
+        "name": "Nám. Biely kríž",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1297673,
+          48.1821751
+        ]
+      },
+      "id": "node/32671566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/33479379",
+        "name": "Vozovňa Krasňany",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1362371,
+          48.1888511
+        ]
+      },
+      "id": "node/33479379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/33479408",
+        "name": "Černockého",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1476112,
+          48.1997142
+        ]
+      },
+      "id": "node/33479408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/35464457",
+        "name": "Kamenné nám.",
+        "name:de": "Steinplatz",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.113559,
+          48.1455395
+        ]
+      },
+      "id": "node/35464457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/55176099",
+        "name": "ŽST Nové Mesto",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1454668,
+          48.1715369
+        ]
+      },
+      "id": "node/55176099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/83812435",
+        "name": "Trnavské mýto",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1274982,
+          48.1578266
+        ]
+      },
+      "id": "node/83812435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/83819412",
+        "name": "Vysoká, Tchibo Outlet",
+        "old_name": "Vysoká",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1123005,
+          48.1484611
+        ]
+      },
+      "id": "node/83819412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/83831675",
+        "name": "Americké nám.",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1179506,
+          48.151106
+        ]
+      },
+      "id": "node/83831675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/218953125",
+        "name": "Kapucínska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1049719,
+          48.1449449
+        ]
+      },
+      "id": "node/218953125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/249692696",
+        "name": "Cintorín Rača",
+        "old_name": "Detvianska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1548265,
+          48.2111984
+        ]
+      },
+      "id": "node/249692696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/308366694",
+        "name": "Úrad vlády SR",
+        "old_name": "Žilinská",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1103665,
+          48.1545357
+        ]
+      },
+      "id": "node/308366694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319976965",
+        "name": "Most SNP",
+        "old_name": "Nový most",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1056993,
+          48.1397672
+        ]
+      },
+      "id": "node/319976965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319976972",
+        "name": "Molecova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0631736,
+          48.1493614
+        ]
+      },
+      "id": "node/319976972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319976976",
+        "name": "Jurigovo námestie",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0613428,
+          48.1520959
+        ]
+      },
+      "id": "node/319976976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319976977",
+        "name": "Segnerova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0578354,
+          48.153643
+        ]
+      },
+      "id": "node/319976977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319976979",
+        "name": "Nad lúčkami",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0535376,
+          48.1560222
+        ]
+      },
+      "id": "node/319976979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319976983",
+        "name": "Borská",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0485989,
+          48.1621051
+        ]
+      },
+      "id": "node/319976983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/319976984",
+        "name": "Karlova Ves",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0468962,
+          48.1644645
+        ]
+      },
+      "id": "node/319976984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/320012337",
+        "name": "Drobného",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.036662,
+          48.1878915
+        ]
+      },
+      "id": "node/320012337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/322922963",
+        "name": "Americké nám.",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1181852,
+          48.1508408
+        ]
+      },
+      "id": "node/322922963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331820225",
+        "alt_name": "Slovenská technická univerzita",
+        "name": "STU",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1160848,
+          48.1512188
+        ]
+      },
+      "id": "node/331820225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331828079",
+        "disused:public_transport": "stop_position",
+        "disused:railway": "tram_stop",
+        "name": "SND",
+        "old_name": "Jesenského",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1102847,
+          48.142166
+        ]
+      },
+      "id": "node/331828079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/331828082",
+        "alt_name": "Námestie Ľudovíta Štúra",
+        "name": "Nám. Ľ. Štúra",
+        "name:de": "Ľudovít-Štúr-Platz",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1100937,
+          48.1401876
+        ]
+      },
+      "id": "node/331828082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333052199",
+        "name": "Astronomická",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1771889,
+          48.1585697
+        ]
+      },
+      "id": "node/333052199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333607448",
+        "name": "Zátišie",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1413853,
+          48.1719608
+        ]
+      },
+      "id": "node/333607448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333748700",
+        "name": "Ursínyho",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1238219,
+          48.1619737
+        ]
+      },
+      "id": "node/333748700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333748706",
+        "name": "Pionierska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1274638,
+          48.1679236
+        ]
+      },
+      "id": "node/333748706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333748727",
+        "name": "Riazanská",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1271935,
+          48.1731517
+        ]
+      },
+      "id": "node/333748727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/333748730",
+        "alt_name": "Železničná stanica Vinohrady",
+        "name": "ŽST Vinohrady",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1336572,
+          48.1859131
+        ]
+      },
+      "id": "node/333748730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/342853926",
+        "name": "Pekná cesta",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.143841,
+          48.1957361
+        ]
+      },
+      "id": "node/342853926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/343482082",
+        "name": "Hečkova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1494583,
+          48.2029022
+        ]
+      },
+      "id": "node/343482082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/440192823",
+        "name": "Herlianska",
+        "old_name": "Herlianska-OC Retro",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1563639,
+          48.1570213
+        ]
+      },
+      "id": "node/440192823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/462626774",
+        "name": "Malé Krasňany",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1388323,
+          48.1910714
+        ]
+      },
+      "id": "node/462626774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/564159736",
+        "name": "Poštová, Martinus",
+        "old_name": "Poštová-Martinus",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1087702,
+          48.1467137
+        ]
+      },
+      "id": "node/564159736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/717528569",
+        "name": "Švantnerova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0407981,
+          48.1816487
+        ]
+      },
+      "id": "node/717528569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/717528608",
+        "name": "Alexyho",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0379879,
+          48.1845828
+        ]
+      },
+      "id": "node/717528608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/717528616",
+        "name": "Dolné Krčace",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0495328,
+          48.1703978
+        ]
+      },
+      "id": "node/717528616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/717528632",
+        "name": "Horné Krčace",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0492079,
+          48.1736765
+        ]
+      },
+      "id": "node/717528632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1534537223",
+        "name": "Damborského",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0442784,
+          48.178941
+        ]
+      },
+      "id": "node/1534537223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1534537251",
+        "name": "Lafranconi",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0780548,
+          48.1452174
+        ]
+      },
+      "id": "node/1534537251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1534537252",
+        "name": "Mariánska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1155267,
+          48.1473993
+        ]
+      },
+      "id": "node/1534537252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1534537293",
+        "name": "Kráľovské údolie",
+        "old_name": "Park kultúry",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0858182,
+          48.1427052
+        ]
+      },
+      "id": "node/1534537293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1537525088",
+        "name": "Botanická záhrada",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0717803,
+          48.1481357
+        ]
+      },
+      "id": "node/1537525088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1537525199",
+        "name": "Krížna",
+        "old_name": "Legionárska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1236619,
+          48.1547027
+        ]
+      },
+      "id": "node/1537525199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1537525237",
+        "name": "MiÚ Karlova Ves",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0516049,
+          48.158733
+        ]
+      },
+      "id": "node/1537525237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1537525279",
+        "name": "Nová doba",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1347081,
+          48.1650134
+        ]
+      },
+      "id": "node/1537525279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1537525327",
+        "name": "Odbojárov",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1318194,
+          48.1620361
+        ]
+      },
+      "id": "node/1537525327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1537525363",
+        "name": "Polus City Center",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1381315,
+          48.1685817
+        ]
+      },
+      "id": "node/1537525363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1538656283",
+        "name": "Shopping Palace",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1777535,
+          48.1884508
+        ]
+      },
+      "id": "node/1538656283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1538656290",
+        "name": "Chatam Sófer",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0930282,
+          48.1408687
+        ]
+      },
+      "id": "node/1538656290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1538656307",
+        "name": "Jurajov dvor",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1637702,
+          48.1830088
+        ]
+      },
+      "id": "node/1538656307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1538656311",
+        "name": "Magnetová",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1544115,
+          48.1798468
+        ]
+      },
+      "id": "node/1538656311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1538656321",
+        "name": "PPA Controll",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1706942,
+          48.1854625
+        ]
+      },
+      "id": "node/1538656321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1538656327",
+        "disused:public_transport": "stop_position",
+        "disused:railway": "tram_stop",
+        "name": "Šafárikovo nám.",
+        "network": "MHD Bratislava",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1157541,
+          48.1417115
+        ]
+      },
+      "id": "node/1538656327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1545084127",
+        "name": "Nemocnica Ružinov",
+        "old_name": "Pri jazere",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1520925,
+          48.1567037
+        ]
+      },
+      "id": "node/1545084127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877240",
+        "bus": "yes",
+        "fare_zone": "100",
+        "name": "Blumentál",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1187979,
+          48.1535948
+        ]
+      },
+      "id": "node/1547877240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877286",
+        "name": "Hybešova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1503896,
+          48.2076722
+        ]
+      },
+      "id": "node/1547877286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877293",
+        "name": "Komisárky",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1662226,
+          48.216186
+        ]
+      },
+      "id": "node/1547877293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877319",
+        "name": "Komisárky",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1665144,
+          48.2162855
+        ]
+      },
+      "id": "node/1547877319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877330",
+        "name": "Mladá garda",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1280017,
+          48.1773678
+        ]
+      },
+      "id": "node/1547877330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877411",
+        "name": "Púchovská",
+        "old_name": "Pri vinohradoch",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1645903,
+          48.2153654
+        ]
+      },
+      "id": "node/1547877411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877412",
+        "name": "Račianske mýto",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1205274,
+          48.1579549
+        ]
+      },
+      "id": "node/1547877412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1547877552",
+        "name": "Záhumenice, DREVONA",
+        "old_name": "Záhumenice-Drevona",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.159269,
+          48.2122916
+        ]
+      },
+      "id": "node/1547877552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1687739564",
+        "name": "OD Saratov",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0351364,
+          48.1916648
+        ]
+      },
+      "id": "node/1687739564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1687739569",
+        "name": "Pri kríži",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0339237,
+          48.194736
+        ]
+      },
+      "id": "node/1687739569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1707347186",
+        "name": "Tomášikova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1618369,
+          48.1574257
+        ]
+      },
+      "id": "node/1707347186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1984331003",
+        "name": "Chlumeckého",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1750981,
+          48.1584158
+        ]
+      },
+      "id": "node/1984331003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1984331008",
+        "name": "Súmračná",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1692868,
+          48.1579795
+        ]
+      },
+      "id": "node/1984331008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2347243986",
+        "name": "Záhumenice, DREVONA",
+        "old_name": "Záhumenice-Drevona",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.15835,
+          48.2116062
+        ]
+      },
+      "id": "node/2347243986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349366155",
+        "name": "Hečkova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1495403,
+          48.2031217
+        ]
+      },
+      "id": "node/2349366155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349368602",
+        "name": "Černockého",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1471856,
+          48.199315
+        ]
+      },
+      "id": "node/2349368602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349368652",
+        "name": "Pekná cesta",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1433828,
+          48.1952984
+        ]
+      },
+      "id": "node/2349368652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349386718",
+        "name": "Malé Krasňany",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.13907,
+          48.1913289
+        ]
+      },
+      "id": "node/2349386718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349386739",
+        "name": "Vozovňa Krasňany",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1355642,
+          48.1883502
+        ]
+      },
+      "id": "node/2349386739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349498299",
+        "name": "Pionierska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1272851,
+          48.1693975
+        ]
+      },
+      "id": "node/2349498299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349658339",
+        "name": "Račianske mýto",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1210004,
+          48.1584725
+        ]
+      },
+      "id": "node/2349658339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2351211490",
+        "bus": "yes",
+        "fare_zone": "100",
+        "name": "Blumentál",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1189611,
+          48.1538751
+        ]
+      },
+      "id": "node/2351211490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2351246957",
+        "name": "Trnavské mýto",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1271676,
+          48.157623
+        ]
+      },
+      "id": "node/2351246957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352352385",
+        "name": "Vysoká, Tchibo Outlet",
+        "old_name": "Vysoká",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1129474,
+          48.1487558
+        ]
+      },
+      "id": "node/2352352385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352512683",
+        "name": "Kamenné nám.",
+        "name:de": "Steinplatz",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1137231,
+          48.1458076
+        ]
+      },
+      "id": "node/2352512683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352512708",
+        "name": "Mariánska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1165401,
+          48.1484406
+        ]
+      },
+      "id": "node/2352512708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352527637",
+        "name": "Kapucínska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "shelter": "yes",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1055581,
+          48.1451591
+        ]
+      },
+      "id": "node/2352527637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2352571158",
+        "name": "ŽST Nové Mesto",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1452261,
+          48.1720016
+        ]
+      },
+      "id": "node/2352571158"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2354534714",
+        "name": "Zlaté piesky",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1826885,
+          48.1894759
+        ]
+      },
+      "id": "node/2354534714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2358244559",
+        "alt_name": "Námestie Ľudovíta Štúra",
+        "name": "Nám. Ľ. Štúra",
+        "name:de": "Ľudovít-Štúr-Platz",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1096039,
+          48.140209
+        ]
+      },
+      "id": "node/2358244559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2359122904",
+        "name": "Jurigovo námestie",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0612493,
+          48.1523141
+        ]
+      },
+      "id": "node/2359122904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2389847697",
+        "name": "Saleziáni",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1335261,
+          48.1555414
+        ]
+      },
+      "id": "node/2389847697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2389847709",
+        "name": "Slovanet",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1407091,
+          48.1557406
+        ]
+      },
+      "id": "node/2389847709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391509805",
+        "name": "Púchovská",
+        "old_name": "Pri Vinohradoch",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1632955,
+          48.2147824
+        ]
+      },
+      "id": "node/2391509805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391522095",
+        "name": "Cintorín Rača",
+        "old_name": "Detvianska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1546191,
+          48.2110892
+        ]
+      },
+      "id": "node/2391522095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391547031",
+        "alt_name": "Železničná stanica Vinohrady",
+        "name": "ŽST Vinohrady",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1333867,
+          48.1857128
+        ]
+      },
+      "id": "node/2391547031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391563965",
+        "name": "Nám. Biely kríž",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1302837,
+          48.1825954
+        ]
+      },
+      "id": "node/2391563965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391566527",
+        "name": "Mladá garda",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1281805,
+          48.1779006
+        ]
+      },
+      "id": "node/2391566527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391569686",
+        "name": "Riazanská",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.127483,
+          48.1743883
+        ]
+      },
+      "id": "node/2391569686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391576811",
+        "name": "Ursínyho",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1242352,
+          48.1624693
+        ]
+      },
+      "id": "node/2391576811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391613306",
+        "name": "Hlavná stanica",
+        "name:de": "Hauptbahnhof",
+        "name:en": "Main station",
+        "name:ru": "Главна станица",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1067752,
+          48.1577105
+        ]
+      },
+      "id": "node/2391613306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391625993",
+        "name": "Námestie Franza Liszta",
+        "name:en": "Franz Liszt square",
+        "old_name": "Predstaničné námestie",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1074789,
+          48.155829
+        ]
+      },
+      "id": "node/2391625993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391630099",
+        "name": "Poštová, Martinus",
+        "old_name": "Poštová-Martinus",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1097765,
+          48.1471841
+        ]
+      },
+      "id": "node/2391630099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391630646",
+        "name": "Námestie SNP",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1116367,
+          48.1451993
+        ]
+      },
+      "id": "node/2391630646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391630647",
+        "name": "Námestie SNP",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1120795,
+          48.1449674
+        ]
+      },
+      "id": "node/2391630647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391631303",
+        "name": "SND",
+        "old_name": "Jesenského",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1119616,
+          48.142915
+        ]
+      },
+      "id": "node/2391631303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391633721",
+        "name": "Most SNP",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1051969,
+          48.1397937
+        ]
+      },
+      "id": "node/2391633721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391634635",
+        "name": "Chatam Sófer",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0924593,
+          48.141198
+        ]
+      },
+      "id": "node/2391634635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391635387",
+        "name": "Kráľovské údolie",
+        "old_name": "Park kultúry",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0840806,
+          48.1430645
+        ]
+      },
+      "id": "node/2391635387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391636321",
+        "name": "Lafranconi",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0782391,
+          48.1451568
+        ]
+      },
+      "id": "node/2391636321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391636750",
+        "name": "Botanická záhrada",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0724726,
+          48.1481265
+        ]
+      },
+      "id": "node/2391636750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391638381",
+        "name": "Molecova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0629251,
+          48.149832
+        ]
+      },
+      "id": "node/2391638381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391643355",
+        "name": "Segnerova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0571133,
+          48.1538512
+        ]
+      },
+      "id": "node/2391643355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391646705",
+        "name": "Nad lúčkami",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0532684,
+          48.1564879
+        ]
+      },
+      "id": "node/2391646705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391649144",
+        "name": "MiÚ Karlova Ves",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0512874,
+          48.1592601
+        ]
+      },
+      "id": "node/2391649144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391649884",
+        "name": "Borská",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0482856,
+          48.1626165
+        ]
+      },
+      "id": "node/2391649884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391650777",
+        "name": "Karlova Ves",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0468161,
+          48.1646427
+        ]
+      },
+      "id": "node/2391650777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391651751",
+        "name": "Dolné Krčace",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0495359,
+          48.1709178
+        ]
+      },
+      "id": "node/2391651751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391652102",
+        "name": "Horné Krčace",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0491125,
+          48.174194
+        ]
+      },
+      "id": "node/2391652102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391653743",
+        "name": "Damborského",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0434042,
+          48.1796779
+        ]
+      },
+      "id": "node/2391653743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391656190",
+        "name": "Švantnerova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0398173,
+          48.1824495
+        ]
+      },
+      "id": "node/2391656190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391658242",
+        "name": "Alexyho",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0374407,
+          48.1860176
+        ]
+      },
+      "id": "node/2391658242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391660891",
+        "name": "Drobného",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0363959,
+          48.1886922
+        ]
+      },
+      "id": "node/2391660891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391663886",
+        "name": "OD Saratov",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0349543,
+          48.1922471
+        ]
+      },
+      "id": "node/2391663886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391666610",
+        "name": "Pri kríži",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0338404,
+          48.1950498
+        ]
+      },
+      "id": "node/2391666610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391676636",
+        "name": "Americké nám.",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1180952,
+          48.1515864
+        ]
+      },
+      "id": "node/2391676636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391677244",
+        "name": "Americké nám.",
+        "old_name": "Odborárske nám.",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1204291,
+          48.1522076
+        ]
+      },
+      "id": "node/2391677244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391678315",
+        "fare_zone": "100",
+        "name": "Vazovova",
+        "note": "occasional stop",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.120507,
+          48.1541589
+        ]
+      },
+      "id": "node/2391678315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391679057",
+        "name": "Krížna",
+        "old_name": "Legionárska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1240066,
+          48.1549227
+        ]
+      },
+      "id": "node/2391679057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391683878",
+        "name": "Trnavské mýto",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1275749,
+          48.1577873
+        ]
+      },
+      "id": "node/2391683878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391684235",
+        "name": "Odbojárov",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1314024,
+          48.1616436
+        ]
+      },
+      "id": "node/2391684235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391684581",
+        "name": "Nová doba",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1342885,
+          48.1646412
+        ]
+      },
+      "id": "node/2391684581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391684924",
+        "name": "Polus City Center",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1384329,
+          48.1689435
+        ]
+      },
+      "id": "node/2391684924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391685553",
+        "name": "Zátišie",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1408367,
+          48.1714473
+        ]
+      },
+      "id": "node/2391685553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391685810",
+        "name": "Odborárska",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.145792,
+          48.1764233
+        ]
+      },
+      "id": "node/2391685810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391686661",
+        "name": "Magnetová",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1527756,
+          48.1793259
+        ]
+      },
+      "id": "node/2391686661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391687652",
+        "name": "Jurajov dvor",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1620987,
+          48.1824684
+        ]
+      },
+      "id": "node/2391687652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391688833",
+        "name": "PPA Controll",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1692388,
+          48.1849801
+        ]
+      },
+      "id": "node/2391688833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391689776",
+        "name": "Shopping Palace",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1764562,
+          48.1878657
+        ]
+      },
+      "id": "node/2391689776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391690642",
+        "name": "Astronomická",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1763494,
+          48.1585376
+        ]
+      },
+      "id": "node/2391690642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391690951",
+        "name": "Chlumeckého",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1733694,
+          48.1583171
+        ]
+      },
+      "id": "node/2391690951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391696179",
+        "name": "Súmračná",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1676052,
+          48.1578894
+        ]
+      },
+      "id": "node/2391696179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391698364",
+        "name": "Tomášikova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1600777,
+          48.1573261
+        ]
+      },
+      "id": "node/2391698364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391704658",
+        "name": "Herlianska",
+        "old_name": "Herlianska-OC Retro",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1549158,
+          48.1569417
+        ]
+      },
+      "id": "node/2391704658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2391889180",
+        "name": "Hybešova",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1509866,
+          48.208242
+        ]
+      },
+      "id": "node/2391889180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2484924575",
+        "name": "Nemocnica Ružinov",
+        "old_name": "Pri jazere",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1513983,
+          48.1566815
+        ]
+      },
+      "id": "node/2484924575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2505288297",
+        "name": "Úrad vlády SR",
+        "old_name": "Žilinská",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1108053,
+          48.1543071
+        ]
+      },
+      "id": "node/2505288297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3051799385",
+        "name": "Farského",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.116884,
+          48.1276834
+        ]
+      },
+      "id": "node/3051799385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151516292",
+        "name": "Farského",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1168038,
+          48.1272166
+        ]
+      },
+      "id": "node/3151516292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3188970339",
+        "name": "Námestie Franza Liszta",
+        "name:en": "Franz Liszt square",
+        "old_name": "Predstaničné námestie",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1074169,
+          48.1560226
+        ]
+      },
+      "id": "node/3188970339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3893650099",
+        "name": "Jungmannova",
+        "network": "MHD Bratislava",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1149539,
+          48.1244875
+        ]
+      },
+      "id": "node/3893650099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3893650100",
+        "name": "Jungmannova",
+        "network": "MHD Bratislava",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1153651,
+          48.1248284
+        ]
+      },
+      "id": "node/3893650100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3896896878",
+        "name": "Sad J. Kráľa, Divadlo Aréna",
+        "network": "MHD Bratislava",
+        "old_name": "Sad Janka Kráľa",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.116972,
+          48.1353484
+        ]
+      },
+      "id": "node/3896896878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3896896879",
+        "name": "Sad J. Kráľa, Divadlo Aréna",
+        "network": "MHD Bratislava",
+        "old_name": "Sad Janka Kráľa",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1170402,
+          48.1357838
+        ]
+      },
+      "id": "node/3896896879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3896896934",
+        "name": "Šafárikovo nám.",
+        "network": "MHD Bratislava",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.116202,
+          48.1413613
+        ]
+      },
+      "id": "node/3896896934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4018544191",
+        "name": "Vozovňa Jurajov dvor",
+        "network": "MHD Bratislava",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1614439,
+          48.1813353
+        ]
+      },
+      "id": "node/4018544191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4018544192",
+        "name": "Vozovňa Jurajov dvor",
+        "network": "MHD Bratislava",
+        "operator": "DPB",
+        "public_transport": "stop_position",
+        "railway": "tram_stop",
+        "tram": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1613635,
+          48.1815265
+        ]
+      },
+      "id": "node/4018544192"
+    }
+  ]
+}
