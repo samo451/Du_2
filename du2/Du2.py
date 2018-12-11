@@ -24,6 +24,11 @@ def delenie_bodov:
 
 def pridanie_cluster_id(vstup):
     for feature in vstup['features']:
-        feature.update({"cluster_id": "4"})
+        try:
+            var = feature["cluster_id"]
+        except KeyError:
+            var = 0
+        new_cluster_id = var*10 + cluster_id
+        feature.update({"cluster_id": new_cluster_id})
     return vstup
 

@@ -12,20 +12,27 @@ print(y)
 
 
 # Pridavanie cluster id aj s updatom
-def pridanie_cluster_id(vstup):
+def pridanie_cluster_id(vstup, cluster_id):
     #for feature in vstup['features']:
     #    var = "5"
     #    feature.update({"cluster_id": var})
-    try:
-        var = feature["cluster_id"]
-    except:
-        var = "1"
     for feature in vstup['features']:
-        vari = var + "8"
-        feature.update({"cluster_id": vari})
+        try:
+            var = feature["cluster_id"]
+        except KeyError:
+            var = 0
+        new_cluster_id = var*10 + cluster_id
+        feature.update({"cluster_id": new_cluster_id})
     return vstup
 
-test = pridanie_cluster_id(gj)
+test = pridanie_cluster_id(gj, 1)
 
 features2 = test['features'][14]
 print(features2)
+
+test2 = pridanie_cluster_id(test, 2)
+
+features3 = test2['features'][14]
+print(features3)
+
+print(features)
