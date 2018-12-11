@@ -1,6 +1,6 @@
 import json
 
-with open("Elektricky_Bratislava.geojson", encoding='utf-8') as f:
+with open("Elektricky_Praha.geojson", encoding='utf-8') as f:
     gj = json.load(f)
 features = gj['features'][100]
 print(features)
@@ -74,24 +74,34 @@ def delenie_bodov(bbox, vstup):
     miny = bbox[1]
     maxx = bbox[2]
     maxy = bbox[3]
+    pocet_1, pocet_2, pocet_3, pocet_4 = 0, 0, 0, 0
     x_mean = (maxx+minx)/2
     y_mean = (maxy+miny)/2
     print(x_mean, y_mean)
+
     for p in vstup['features']:
         if p['geometry']['coordinates'][0] < x_mean and p['geometry']['coordinates'][1] > y_mean:
+            pocet_1 += 1
             pridanie_cluster_id(p, 1)
         if p['geometry']['coordinates'][0] > x_mean and p['geometry']['coordinates'][1] > y_mean:
+            pocet_2 += 1
             pridanie_cluster_id(p, 2)
         if p['geometry']['coordinates'][0] < x_mean and p['geometry']['coordinates'][1] < y_mean:
+            pocet_3 += 1
             pridanie_cluster_id(p, 3)
         if p['geometry']['coordinates'][0] > x_mean and p['geometry']['coordinates'][1] < y_mean:
+            pocet_4 += 1
             pridanie_cluster_id(p, 4)
+    print(pocet_1, pocet_2, pocet_4, pocet_3)
+    """if pocet_1 > 50:
+        bbox_1 = [minx, y_mean, x_mean, maxy]
+        delenie_bodov(bbox_1, )"""
 
 delenie_bodov(calculator_bbox(gj), gj)
 #print(gj)
 featur = gj['features'][101]
 print(featur)
-for i in gj['features']:
-    print(i)
+#for i in gj['features']:
+#    print(i)
 
-print(gj)
+#print(gj)
