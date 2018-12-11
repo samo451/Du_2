@@ -1,7 +1,7 @@
-import geojson
+import json
 
 with open("Elektricky_Bratislava.geojson", encoding='utf-8') as f:
-    gj = geojson.load(f)
+    gj = json.load(f)
 features = gj['features'][10]
 print(features)
 
