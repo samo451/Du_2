@@ -151,6 +151,16 @@ delenie_bodov(calculator_bbox(gj), gj)
 #print(gj)
 featur = gj['features'][101]
 print(featur)
+
+
+def ulozenie_geojson (export):
+    with open('export_praha_zastavky.geojson', 'w') as geojson_file:
+        json.dump(export, geojson_file)
+
+
+ulozenie_geojson(gj)
+
+
 #for i in gj['features']:
 #    print(i)
 
