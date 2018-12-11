@@ -1,14 +1,7 @@
 import json
-from abc import ABC, abstractmethod
 
 filename_import = sys.argv[1]
 filename_export = sys.argv[2]
-
-class Body(ABC):
-    pass
-
-class Quadrtree(Body):
-    def __init__(self, obalka_ll, obalka_ur):
 
 
 def otvorenie_geojson:
@@ -16,13 +9,18 @@ def otvorenie_geojson:
         geojson = json.load(f)
     return geojson
 
-def ulozenie_geojson (wxport):
+
+def ulozenie_geojson (export):
     with open(filename_export, 'w') as geojson_file:
 
 
 
-def delenie_bodov:
-    m = 1
+def delenie_bodov(bbox, vstup):
+    minx = bbox[0]
+    miny = bbox[1]
+    maxx = bbox[2]
+    maxy = bbox[3]
+
 
 
 def pridanie_cluster_id(vstup, cluster_id):
@@ -48,5 +46,5 @@ def calculator_bbox(vstup):
             maxx = p['geometry']['coordinates'][0]
         if p['geometry']['coordinates'][1] > maxy:
             maxy = p['geometry']['coordinates'][1]
-    bbox = [minx, miny,maxx, maxy]
+    bbox = [minx, miny, maxx, maxy]
     return bbox
