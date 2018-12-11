@@ -35,3 +35,18 @@ def pridanie_cluster_id(vstup, cluster_id):
         feature.update({"cluster_id": new_cluster_id})
     return vstup
 
+def calculator_bbox(vstup):
+    """Vracia zoznam (bbox) minx,miny, maxx, maxy"""
+    minx, miny = float("inf"), float("inf")
+    maxx, maxy = float("-inf"), float("-inf")
+    for p in vstup['features']:
+        if p['geometry']['coordinates'][0] < minx:
+            minx = p['geometry']['coordinates'][0]
+        if p['geometry']['coordinates'][1] < miny:
+            miny = p['geometry']['coordinates'][1]
+        if p['geometry']['coordinates'][0] > maxx:
+            maxx = p['geometry']['coordinates'][0]
+        if p['geometry']['coordinates'][1] > maxy:
+            maxy = p['geometry']['coordinates'][1]
+    bbox = [minx, miny,maxx, maxy]
+    return bbox
