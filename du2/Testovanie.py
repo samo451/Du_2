@@ -54,7 +54,7 @@ def calculator_bbox(vstup):
 
 def pridanie_cluster_id(vstup, cluster_id):
     """Vstup jednej feature zo zoznamu, pridava cluster id podľa kľúča v dokumentácii"""
-    zaznam = vstup
+    zaznam = vstup['properties']
     try:
         var = zaznam["cluster_id"]
     except KeyError:
