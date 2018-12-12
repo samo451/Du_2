@@ -1,12 +1,20 @@
 import json
 import sys
 
+if len(sys.argv) < 3:
+    # Končí sa chybovým stavom
+    print("Príliš málo argumentov")
+    exit(1)
+
 filename_import = sys.argv[1]
 filename_export = sys.argv[2]
 
-
-with open(filename_import, encoding='utf-8') as f:
-    geojson = json.load(f)
+try:
+    with open(filename_import, encoding='utf-8') as f:
+        geojson = json.load(f)
+except:
+    print("Vstupný súbor nie je možné otvoriť")
+    exit(2)
 
 
 def delenie_bodov(bbox, vstup):
