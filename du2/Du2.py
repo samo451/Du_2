@@ -12,7 +12,7 @@ filename_export = sys.argv[2]
 try:
     with open(filename_import, encoding='utf-8') as f:
         geojson = json.load(f)
-except:
+except FileNotFoundError:
     print("Vstupný súbor nie je možné otvoriť")
     exit(2)
 
