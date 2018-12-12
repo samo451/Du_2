@@ -1,4 +1,5 @@
 import json
+import turtle
 
 with open("Elektricky_Praha.geojson", encoding='utf-8') as f:
     gj = json.load(f)
@@ -81,6 +82,7 @@ def delenie_bodov(bbox, vstup):
     print(x_mean, y_mean)
 
     for p in vstup['features']:
+
         if p['geometry']['coordinates'][0] < x_mean and p['geometry']['coordinates'][1] > y_mean:
             pocet_1 += 1
             cluster_id_1 = pridanie_cluster_id(p, 1)
@@ -118,8 +120,9 @@ def delenie_bodov_opakovane(cluster_id, bbox, vstup):
     x_mean = (maxx + minx) / 2
     y_mean = (maxy + miny) / 2
     print(x_mean, y_mean)
-
     for p in vstup['features']:
+        coordinates = p['geometry']['coordinates']
+        turtle_kresli_body(coordinates, bbox)
         if p['geometry']['coordinates'][0] < x_mean and p['geometry']['coordinates'][1] > y_mean and p['properties']['cluster_id'] == cluster_id:
             pocet_1 += 1
             cluster_id_1 = pridanie_cluster_id(p, 1)
@@ -146,7 +149,21 @@ def delenie_bodov_opakovane(cluster_id, bbox, vstup):
         bbox_4 = [x_mean, miny, maxx, y_mean]
         delenie_bodov_opakovane(cluster_id_4, bbox_4, vstup)
 
+def turtle_kresli_body(coordinates, bbox):
+    minx = bbox[0]
+    miny = bbox[1]
+    maxx = bbox[2]
+    maxy = bbox[3]
+    x, y = coordinates[0], coordinates[1]
 
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pencolor("white")
+    turtle.dot(5)
+    turtle.goto(0, 0)
+
+
+turtle.screensize(5000,5000,"black")
 delenie_bodov(calculator_bbox(gj), gj)
 #print(gj)
 featur = gj['features'][101]
@@ -161,6 +178,12 @@ def ulozenie_geojson (export):
 ulozenie_geojson(gj)
 
 
+
+
+turtle.screensize(5000,500,"black")
+turtle.pencolor("white")
+turtle.dot(1)
+turtle.exitonclick()
 #for i in gj['features']:
 #    print(i)
 
