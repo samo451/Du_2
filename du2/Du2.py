@@ -15,6 +15,9 @@ try:
 except FileNotFoundError:
     print("Vstupný súbor nie je možné otvoriť")
     exit(2)
+except UnicodeDecodeError:
+    print("Chybný vstupný súbor")
+    exit(3)
 
 
 def delenie_bodov(bbox, vstup):
