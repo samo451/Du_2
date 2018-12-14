@@ -9,6 +9,7 @@ if len(sys.argv) < 3:
 filename_import = sys.argv[1]
 filename_export = sys.argv[2]
 
+#Testuje vstupný súbor ohľadom existencie a čitateľnosti
 try:
     with open(filename_import, encoding='utf-8') as f:
         geojson = json.load(f)
@@ -19,6 +20,12 @@ except UnicodeDecodeError:
     print("Chybný vstupný súbor")
     exit(3)
 
+#Testovanie platnosti geojson súboru
+try:
+    test = geojson['features'][0]['geometry']['coordinates']
+except:
+    print("Neplatný geojson - neobsahuje súradnice")
+    exit(5)
 
 def delenie_bodov(cluster_id, bbox, vstup):
     """Delenie bodov pomocou mechanizmu quadtree. Iba pre pokračujúci beh (musí existovať atribút cluster_id)"""

@@ -6,12 +6,21 @@ with open("Elektricky_Praha.geojson", encoding='utf-8') as f:
 features = gj['features'][100]
 print(features)
 
+t = test = gj['features'][0]['geometry']['coordinates']
+print(t)
+
+try:
+    test = gj['features'][0]['geometry']['coordinates']
+except:
+    print("Neplatný geojson - neobsahuje súradnice")
+    exit(5)
+"""
 #Vypísanie geometrie
 y = gj['features'][102]['geometry']['coordinates']
 print(y)
 
 
-"""
+
 # Pridavanie cluster id aj s updatom
 def pridanie_cluster_id(vstup, cluster_id):
     #for feature in vstup['features']:
@@ -34,10 +43,10 @@ test2 = pridanie_cluster_id(test, 2)
 features3 = test2['features'][14]
 print(features3)
 print(features)
-"""
+
 
 def calculator_bbox(vstup):
-    """Returnuje Rectangle bbox"""
+    ""Returnuje Rectangle bbox""
     minx, miny = float("inf"), float("inf")
     maxx, maxy = float("-inf"), float("-inf")
     for p in vstup['features']:
@@ -54,7 +63,7 @@ def calculator_bbox(vstup):
     return bbox
 
 def pridanie_cluster_id(vstup, cluster_id):
-    """Vstup jednej feature zo zoznamu, pridava cluster id podľa kľúča v dokumentácii"""
+    
     zaznam = vstup['properties']
     try:
         var = zaznam['cluster_id']
@@ -188,3 +197,4 @@ turtle.exitonclick()
 #    print(i)
 
 #print(gj)
+"""
