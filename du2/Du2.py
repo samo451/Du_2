@@ -52,16 +52,16 @@ def delenie_bodov(cluster_id, bbox, vstup):
     """Zisťovanie, či je počet bodov v jednom  clustri nad 50. Pokiaě áno, delenie bodov sa opakuje"""
     if pocet_1 > 50:
         bbox_1 = [minx, y_mean, x_mean, maxy]
-        delenie_bodov_opakovane(cluster_id_1, bbox_1, vstup)
+        delenie_bodov(cluster_id_1, bbox_1, vstup)
     if pocet_2 > 50:
         bbox_2 = [x_mean, y_mean, maxx, maxy]
-        delenie_bodov_opakovane(cluster_id_2, bbox_2, vstup)
+        delenie_bodov(cluster_id_2, bbox_2, vstup)
     if pocet_3 > 50:
         bbox_3 = [minx, miny, x_mean, y_mean]
-        delenie_bodov_opakovane(cluster_id_3, bbox_3, vstup)
+        delenie_bodov(cluster_id_3, bbox_3, vstup)
     if pocet_4 > 50:
         bbox_4 = [x_mean, miny, maxx, y_mean]
-        delenie_bodov_opakovane(cluster_id_4, bbox_4, vstup)
+        delenie_bodov(cluster_id_4, bbox_4, vstup)
 
 
 def pridanie_cluster_id(vstup, cluster_id):
@@ -95,5 +95,10 @@ def calculate_bbox(vstup):
 
 delenie_bodov(0, calculate_bbox(geojson), geojson)
 
-with open(filename_export, 'w') as geojson_file:
-    json.dump(geojson, geojson_file)
+try:
+    with open(filename_export, 'w') as geojson_file:
+        json.dump(geojson, geojson_file)
+except FileNotFoundError:
+    print("Chyba pri zápise - neexistuje priečinok, alebo nie je povolený prístup")
+    exit(4)
+
