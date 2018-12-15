@@ -1,5 +1,6 @@
 import json
 import turtle
+import subprocess
 
 with open("Elektricky_Praha.geojson", encoding='utf-8') as f:
     gj = json.load(f)

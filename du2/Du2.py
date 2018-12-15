@@ -44,16 +44,20 @@ def delenie_bodov(cluster_id, bbox, vstup):
             test = p['properties']['cluster_id']
         except:
             p['properties']['cluster_id'] = 0
-        if p['geometry']['coordinates'][0] <= x_mean and p['geometry']['coordinates'][1] >= y_mean and p['properties']['cluster_id'] == cluster_id:
+        if p['geometry']['coordinates'][0] <= x_mean and p['geometry']['coordinates'][1] >= y_mean and \
+                p['properties']['cluster_id'] == cluster_id:
             pocet_1 += 1
             cluster_id_1 = pridanie_cluster_id(p, 1)
-        if p['geometry']['coordinates'][0] > x_mean and p['geometry']['coordinates'][1] >= y_mean and p['properties']['cluster_id'] == cluster_id:
+        if p['geometry']['coordinates'][0] > x_mean and p['geometry']['coordinates'][1] >= y_mean and \
+                p['properties']['cluster_id'] == cluster_id:
             pocet_2 += 1
             cluster_id_2 = pridanie_cluster_id(p, 2)
-        if p['geometry']['coordinates'][0] <= x_mean and p['geometry']['coordinates'][1] < y_mean and p['properties']['cluster_id'] == cluster_id:
+        if p['geometry']['coordinates'][0] <= x_mean and p['geometry']['coordinates'][1] < y_mean and \
+                p['properties']['cluster_id'] == cluster_id:
             pocet_3 += 1
             cluster_id_3 = pridanie_cluster_id(p, 3)
-        if p['geometry']['coordinates'][0] > x_mean and p['geometry']['coordinates'][1] < y_mean and p['properties']['cluster_id'] == cluster_id:
+        if p['geometry']['coordinates'][0] > x_mean and p['geometry']['coordinates'][1] < y_mean and \
+                p['properties']['cluster_id'] == cluster_id:
             pocet_4 += 1
             cluster_id_4 = pridanie_cluster_id(p, 4)
     """Zisťovanie, či je počet bodov v jednom  clustri nad 50. Pokiaě áno, delenie bodov sa opakuje"""
