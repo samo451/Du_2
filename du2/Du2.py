@@ -107,6 +107,7 @@ def calculate_bbox(vstup):
 
 delenie_bodov(0, calculate_bbox(geojson), geojson)
 
+#Ukladanie výstupného súboru
 try:
     with open(filename_export, 'w') as geojson_file:
         json.dump(geojson, geojson_file)

@@ -1,3 +1,4 @@
+"""
 import pytest
 from Du2 import delenie_bodov
 #def test_pocet_argumentov():
@@ -13,4 +14,5 @@ from Du2 import delenie_bodov
 #def test_vystup_programu():
 
 
-def test_deliacej_funkcie():
+#def test_deliacej_funkcie():
+"""
