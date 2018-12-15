@@ -106,6 +106,9 @@ try:
     with open(filename_export, 'w') as geojson_file:
         json.dump(geojson, geojson_file)
 except FileNotFoundError:
-    print("Chyba pri zápise - neexistuje priečinok, alebo nie je povolený prístup")
+    print("Chyba pri zápise - neexistuje cesta k súboru")
     exit(4)
+except PermissionError:
+    print("Chyba pri zápise - nie je povolený zápis")
+    exit(6)
 
