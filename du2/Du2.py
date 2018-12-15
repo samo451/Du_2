@@ -1,6 +1,7 @@
 import json
 import sys
 
+#Overuje, či je dostatočný počet vstupných argumentov
 if len(sys.argv) < 3:
     # Končí sa chybovým stavom
     print("Príliš málo argumentov")

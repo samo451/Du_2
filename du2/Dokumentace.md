@@ -27,3 +27,11 @@ GeoJSON súbor s bodovou vrstvou doplnený o atribút cluster_id.
 Po spustení programu zistí program, či je počet vstupných parametrov dostatočný a či spĺňaju náležitosti programu.
 Následne program zistí bbox okolo bodov a následne spustí delenie pomocou quadtree až po bod, kedy sa na všetkých podskupinách 
 nenachádza maximálne 50 bodov. Následne program uloží výsledok vo formáte geojson.
+
+####Exit kódy programu:
+1) Nedostatočný počet argumentov - postupujte podľa príkladu behu programu uvedenému vyššie
+2) Vstupný súbor nie je možné otvoriť
+3) Chybný vstupný súbor - vás súbor je pravdepodobne poškodený
+4) Chyba pri zápise - neexistuje cesta k súboru.
+5) Neplatný geoJSON súbor - neobsahuje súradnice v: ['features']'geometry']['coordinates']
+6) Chyba pri zápise - nie je povolený zápis
